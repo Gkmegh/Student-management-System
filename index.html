@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management CRUD</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+</head>
+<body>
+    <div class="heading">
+        <p>Student Management CRUD</p>
+    </div>
+    <div class="student-details">
+        <form class="student-form">
+            <input type="text" placeholder="Name" id="name" required>
+            <input type="email" placeholder="Email" id="email" required>
+            <input type="number" placeholder="GPA" id="gpa" required>
+            <input type="number" placeholder="Age" id="age" required>
+            <input type="text" placeholder="Degree" id="degree" required>
+            <button type="submit" id="addStudentBtn" >Add Student</button>
+        </form>
+    </div>
+
+    <div class="search-bar">
+        <input type="text" placeholder="Search By Name, Email, or Degree" id="searchInput">
+    </div>
+
+    <table class="student-data" id="studentTable">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Student Name</th>
+                <th>Email</th>
+                <th>Age</th>
+                <th>GPA</th>
+                <th>Degree</th>
+                
+            </tr>
+        </thead>
+        <tbody id="studentTableBody"></tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>

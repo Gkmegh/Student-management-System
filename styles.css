@@ -1,0 +1,171 @@
+body{
+    font-family: 'Inter', sans-serif;
+    background-color: #111111;
+}
+.heading {
+    color: #FFFFFF;
+    width: 100%;
+    height: 58px;
+    top: 62px;
+    margin-left: 65px;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 2%;
+}
+.student-form input{
+    width: 466px;
+    height: 67px;
+    top: 157px;
+    margin-left: 58px;
+    margin-bottom: 3%;
+    border: 1px solid #FFFFFF;
+    background-color: #111111;
+    padding-left: 20px;
+    font-size: 20px;
+    color: #FFFFFF;
+
+}
+.student-details button{
+    width: 712px;
+    height: 67px;
+    top: 384px;
+    margin-left: 65px;
+    margin-bottom: 2%;
+    font-weight: 400;
+    font-size: 120%;
+}
+.student-details button:hover{
+    cursor: pointer;
+}
+.search-bar input{
+    width: 1588px;
+    height: 67px;
+    top: 561px;
+    margin-left: 87px;
+    border: 1px solid #FFFFFF;
+    background-color: #111111;
+    padding-left: 20px;
+    font-size: 20px;
+    margin-bottom: 2%;
+}
+.student-data{
+    border: solid 1px #FFFFFF;
+    color: #FFFFFF;
+    margin-left: 87px;
+    width: 1588px;
+    top: 795px;
+    left: 70px;
+    border: 1px ;
+}
+.student-data th{
+    border: solid 1px #FFFFFF;
+}
+.student-data td{
+    border: solid 1px #FFFFFF;
+    height: 50px;
+    width: 20px;
+    color: #FFFFFF;
+}
+.studentTableBody{
+    padding-left: 20px;
+}
+/* Add this CSS code to your existing styles */
+
+.student-data td {
+    border: solid 1px #ffffff;
+    height: 50px;
+    width: auto; /* Set width to auto */
+    color: #ffffff;
+    position: relative; /* Add position property */
+    padding: 0 10px; /* Add padding for better spacing */
+  }
+  
+  .edit-icon,
+  .delete-icon {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 5px; /* Add margin for spacing */
+    cursor: pointer;
+  }
+
+  .student-data {
+    color: #FFFFFF;
+    margin-left: 87px;
+    width: 1588px;
+    table-layout: fixed;
+    border-collapse: collapse;
+  }
+  
+  .student-data th{
+    border: solid 1px #FFFFFF;
+    height: 50px;
+    width: 250px;
+  }
+
+  .student-data td {
+    border: none;
+    height: 50px;
+    width: 250px; /* Set a fixed width for each column */
+    color: #FFFFFF;
+    text-align: center;
+    position: relative;
+    vertical-align: middle;
+  }
+  
+  .student-data td:last-child {
+    padding-right: 10px;
+  }
+  .student-data td .actions {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(0, -50%); /* Center vertically */
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .student-data td .actions button {
+    background-color: transparent;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    padding: 0; 
+  }
+
+  @media (max-width: 768px) {
+    .heading {
+      font-size: 36px;
+    }
+  
+    .student-form input {
+      width: 90%;
+    }
+  
+    .add-btn button {
+      width: 90%;
+    }
+  
+    .Search-bar input {
+      width: 90%;
+    }
+  
+    .student-data {
+      margin-left: 20px;
+      width: auto;
+    }
+  
+    .student-data th,
+    .student-data td {
+      width: auto;
+      padding: 8px;
+      white-space: nowrap;
+    }
+  }
+
+  
+  
